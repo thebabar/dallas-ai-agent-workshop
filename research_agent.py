@@ -153,20 +153,3 @@ def run_research(question: str) -> dict:
     
     return result
 ```
-
----
-
-## **File 2: Update `requirements.txt`**
-
-**Edit `requirements.txt`** → add this line at the end:
-```
-tavily-python
-```
-
----
-
-## **File 3: Update `.env.example`**
-
-**Edit `.env.example`** → add this line:
-```
-TAVILY_API_KEY=your_tavily_api_key_here
